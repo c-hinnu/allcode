@@ -1,0 +1,26 @@
+package javanew;
+
+public class sample {
+
+	public static void main(String[] args) {
+	String s="gloryy";
+	char[] a=s.toCharArray();
+	int count=0;
+	for(int i=0;i<a.length-1;i++) {
+		
+	  if(a[i]==a[i+1])
+		{
+			count=count+1;
+			System.out.print(a[i]);
+			System.out.print(count+1);
+			
+		}
+		if(count==0)
+		{
+			System.out.print(a[i]);
+		}
+		
+	}
+	
+
+}}

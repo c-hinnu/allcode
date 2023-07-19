@@ -1,0 +1,25 @@
+package javanew;
+import java.util.*;
+public class pgm18 {
+
+	public static void main(String[] args) {
+		 System.out.println("Enter your string");
+	        Scanner sc = new Scanner(System.in);
+	        String s=sc.nextLine();
+	        int c=0;
+	        char[] ch = s.toCharArray();
+	        for(int i=0;i<s.length();i++)
+	        {
+	             if(ch[i] =='a'||ch[i] =='e'||ch[i] =='i'||ch[i] =='o'||ch[i] =='u'||ch[i]=='A'||ch[i]=='E'||ch[i]=='I'||ch[i]=='O'||ch[i]=='U'||)
+	            {
+	                c++;
+	                
+	            }
+	            
+	        }
+	        System.out.println("Number of vowels in a given string: "+c);
+	        
+	        
+	        
+	    }
+	}

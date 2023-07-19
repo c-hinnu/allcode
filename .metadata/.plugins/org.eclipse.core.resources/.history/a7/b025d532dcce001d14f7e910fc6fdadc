@@ -1,0 +1,27 @@
+package javanew;
+import java.util.*;
+
+public class Arrmax {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n= sc.nextInt();
+		int[] lar=new int[n];
+		int max=0;
+		for(int i=0;i<n;i++)
+		{
+			lar[i]=sc.nextInt();
+		}
+		for(int i=0;i<n;i++)
+		{
+			if(lar[i]>max)
+			{
+				max=lar[i];
+				System.out.println(lar[i-1]);
+			}
+		}
+		
+
+	}
+
+}

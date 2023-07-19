@@ -1,0 +1,34 @@
+package javanew;
+import java.util.*;
+
+public class Strchar {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+        String s1=sc.nextLine();
+        char[] ch=s1.toCharArray();
+        int c=0;
+        int t=s1.length();
+      //  char[] cn=s1.toCharArray();      
+        for(int i=0;i<t;i++)     	
+        {
+        	if(ch[i]==ch[t-1-i]) {
+        		c=1;
+        	}
+        	else
+        	{
+        		System.out.println("Not Palindrome");
+        		break;
+        	}
+        	
+         }
+        if(c==1)
+        {
+        	System.out.println("Palindrome");
+        }
+        
+        
+        
+	}
+
+}

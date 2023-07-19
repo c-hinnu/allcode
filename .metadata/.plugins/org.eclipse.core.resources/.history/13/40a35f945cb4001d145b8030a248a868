@@ -1,0 +1,21 @@
+package javanew;
+import java.util.*;
+public class pgm18 {
+
+	public static void main(String[] args) {
+	     Scanner sc = new Scanner(System.in);
+	        int l=sc.nextInt();
+	        int h=sc.nextInt();
+	        int n=sc.nextInt();
+	        
+	        while(l<h)
+	        {
+	            if(n%l!=0)
+	            {
+	                System.out.println(l);
+	                l++;
+	            }
+	        }
+	        
+	    }
+	}

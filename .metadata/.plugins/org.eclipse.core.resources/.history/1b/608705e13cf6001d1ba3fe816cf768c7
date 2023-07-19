@@ -1,0 +1,18 @@
+package javanew;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamQues1 {
+
+	public static void main(String[] args) {
+		List<String> str = new ArrayList<>();
+		str.add("Hello");
+		str.add("Interview");
+		str.add("Questions");
+		str.add("Answers");
+		 str.forEach(System.out::println); 
+
+	}
+
+}

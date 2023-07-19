@@ -1,0 +1,26 @@
+package javanew;
+import java.util.*;
+
+public class Whitestr {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s=sc.nextLine();
+		char[] w=s.toCharArray();
+		char[] wh=new char[s.length()];
+		int k=0;
+		for(int i=0;i<s.length();i++)
+		{
+			if(w[i]!=' ')
+			{
+				wh[k]=w[i];
+				k++;
+			}
+		}
+		for(int i=0;i<k-1;i++)
+		{
+		System.out.print(wh[i]);
+
+	}
+
+}}

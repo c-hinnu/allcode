@@ -1,0 +1,17 @@
+package javanew;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class StreamQues1 {
+
+	public static void main(String[] args) {
+		  List<String> list = Arrays.asList("", "Geeks",
+                  "for", "GeeksforGeeks");
+
+
+list.stream().forEach(System.out::print);
+	}
+
+}

@@ -1,0 +1,18 @@
+package javanew;
+import java.util.*;
+
+public class Strchar {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+        String s1=sc.nextLine();
+        char[] ch=s1.toCharArray(); 
+        char[] c= {' '};
+        for(int i=s1.length();i>=0;i--)
+        {
+        	
+        	System.out.println(c[i]);
+        }
+	}
+
+}

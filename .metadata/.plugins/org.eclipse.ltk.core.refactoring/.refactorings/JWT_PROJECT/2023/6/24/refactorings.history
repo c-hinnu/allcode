@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.project.jwt.one&apos; to &apos;com.project.jwt.model&apos;&#x0D;&#x0A;- Original project: &apos;JWT_PROJECT&apos;&#x0D;&#x0A;- Original element: &apos;JWT_PROJECT/src/main/java/com.project.jwt.one&apos;&#x0D;&#x0A;- Renamed element: &apos;JWT_PROJECT/src/main/java/com.project.jwt.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.project.jwt.one&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.project.jwt.one" name="com.project.jwt.model" qualified="false" references="true" stamp="1686638388926" textual="false" version="1.0"/>
+</session>
